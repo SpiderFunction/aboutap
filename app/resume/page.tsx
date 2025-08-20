@@ -123,7 +123,7 @@ const page = () => {
               <div>
                 <h2 className='font-bold uppercase text-xl'>Company Internal System</h2>
                 <p className='italic'>Tailwind CSS, Alpine.js, Laravel, and Livewire</p>
-                <Link className='text-primary underline italic hover:text-primary/90 hover:animate-pulse hover:font-bold' href={'https://github.com/AnthonyPhilipDP/internal-system'} target="_blank" rel="noopener noreferrer">Check Code</Link>
+                <span className='text-primary underline italic hover:text-primary/90 hover:font-bold'>Unfortunately, I do not have the source code since the company claims full ownership and hasn&apos;t provided me any rights to it.</span>
               </div>
               <div>
                 <h2 className='font-bold uppercase text-xl'>Barangay in Cavite, Official Website</h2>
