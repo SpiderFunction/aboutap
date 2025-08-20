@@ -32,7 +32,7 @@ const About = () => {
   // Age Calculator - End
   const details = [
     { birthday: '30 April 2000', 
-      email: 'anthonyphilipdp@gmail.com',
+      email: 'philip@spiderfunction.com',
       location: 'Philippines',
       age: adjustedAge,
       degree: 'Bachelor',
