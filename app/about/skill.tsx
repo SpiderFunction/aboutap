@@ -13,7 +13,7 @@ const Skill = ({ name, percent }: Props) => {
   React.useEffect(() => {
     const timer = setTimeout(() => setProgress(percent), 500)
     return () => clearTimeout(timer)
-  }, [])
+  }, [percent])
 
   return (
     <>
