@@ -158,7 +158,7 @@ const page = () => {
               <h2 className='font-bold uppercase text-3xl text-primary'>Experience</h2>
               <div className='space-y-1'>
                 <h2 className='font-bold uppercase text-xl'>Freelance Developer</h2>
-                <p className=''>Present</p>
+                <p className=''>January 2025 - Present</p>
               </div>
               <div className='space-y-1'>
                 <h2 className='font-bold uppercase text-xl'>Freelance Website Developer</h2>
