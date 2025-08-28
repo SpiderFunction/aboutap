@@ -161,7 +161,7 @@ const page = () => {
                 <p className=''>Present</p>
               </div>
               <div className='space-y-1'>
-                <h2 className='font-bold uppercase text-xl'>Programmer / Admin Officer</h2>
+                <h2 className='font-bold uppercase text-xl'>Freelance Website Developer</h2>
                 <p className='italic'>Precision Measurement Specialists, inc.</p>
                 <p className=''>January 2025 - August 2025</p>
               </div>
