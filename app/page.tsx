@@ -1,9 +1,11 @@
+"use client"
 import React from 'react'
 import TypeWriter from './components/typewriter'
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import NavLink from './components/nav-link';
 import ThunderEffect from './ThunderEffect';
+import ElectricBorder from '@/components/ElectricBorder';
 
 const Home = () => {
   return (
@@ -31,21 +33,49 @@ const Home = () => {
           </ul>
         </nav>
         <ThunderEffect />
-        <div className='absolute bottom-24 left-12'>
-          <span className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white'>Hi, I'm <span className='text-primary'>Anthony </span>Philip</span>
+        <div className='absolute bottom-48 left-8 hidden lg:block'>
+          <span className='text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white'>Hi, I'm <span className='text-primary'>Anthony </span>Philip</span>
           <span className='text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
             <TypeWriter />  
           </span>
-          <Button size={'lg'} className='hidden lg:flex mt-8 rounded-none cursor-pointer uppercase animate-pulse hover:-translate-y-0.5 transform transition' asChild>
-            <Link href="/about">
-                Click to know more about me
-            </Link>
-          </Button>
-          <Button className='flex lg:hidden mt-8 rounded-none cursor-pointer uppercase animate-pulse hover:-translate-y-0.5 transform transition' asChild>
-            <Link href="/about" className='text-xs'>
-                Tap to know more about me
-            </Link>
-          </Button>
+        </div>
+        <div className='absolute top-30 left-8 block lg:hidden'>
+          <span className='text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white'>Hi, I'm <span className='text-primary'>Anthony </span>Philip</span>
+          <span className='text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
+            <TypeWriter />  
+          </span>
+        </div>
+        <div className='absolute bottom-24 left-8 hidden lg:block'>
+          <Link href="/about" className='text-md uppercase tracking-wide'>
+            <ElectricBorder
+              color="#ff4040"
+              speed={1}
+              chaos={0.5}
+              thickness={2}
+              style={{ borderRadius: 16 }}
+              className='px-8 py-3 text-center mt-8'
+            >
+              <div>
+                  Click to know more about me
+              </div>
+            </ElectricBorder>
+          </Link>
+        </div>
+        <div className='absolute top-1/2 left-0 right-0 mx-12 xs:mx-24 sm:mx-32 md:mx-48 block lg:hidden'>
+          <Link href="/about" className='text-sm uppercase tracking-wide'>
+            <ElectricBorder
+              color="#ff4040"
+              speed={1}
+              chaos={0.5}
+              thickness={2}
+              style={{ borderRadius: 16 }}
+              className='px-4 py-3 text-center mt-8'
+            >
+              <div>
+                  Tap to know more about me
+              </div>
+            </ElectricBorder>
+          </Link>
         </div>
       </div>
     </>
