@@ -8,7 +8,7 @@ const ThunderEffect = () => {
     <div className='w-full h-full'>
       <Lightning
         hue={0}
-        xOffset={0}
+        xOffset={0.5}
         speed={1.2}
         intensity={1.2}
         size={2}
