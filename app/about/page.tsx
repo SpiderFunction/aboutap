@@ -66,8 +66,8 @@ const About = () => {
           <div className='flex justify-center items-center m-4 md:w-[40%]'>
             <Image 
                 className='rounded-xl w-[400px]'
-                src={'/profile-picture.png'}
-                alt='Profile Picture'
+                src={'/formal-profile-picture.png'}
+                alt='APP Profile Picture'
                 width={1000}
                 height={1000}
               />
