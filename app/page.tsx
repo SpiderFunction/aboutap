@@ -1,15 +1,15 @@
 import React from 'react'
 import TypeWriter from './components/typewriter'
-import Navbar from "./components/navbar";
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import NavLink from './components/nav-link';
+import ThunderEffect from './ThunderEffect';
 
 const Home = () => {
   return (
     <>
-      <div className="h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url("/hero-bg.png")' }}>
-        <nav className='sticky top-0 w-full z-50 bg-black'>
+      <div className="relative h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url("/hero-bg.png")' }}>
+        <nav className='absolute top-0 w-full z-50 bg-black'>
           <div className='flex flex-row justify-between items-center px-12 py-2 border-b space-x-2 uppercase tracking-wider text-2xl md:text-3xl lg:text-4xl xl:text-5xl'>
             <span></span>
             <Link href={'/'} className='text-white hover:text-primary transition-all duration-200'>
@@ -30,6 +30,7 @@ const Home = () => {
             </li>
           </ul>
         </nav>
+        <ThunderEffect />
         <div className='absolute bottom-24 left-12'>
           <span className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white'>Hi, I'm <span className='text-primary'>Anthony </span>Philip</span>
           <span className='text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
