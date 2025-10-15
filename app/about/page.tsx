@@ -11,7 +11,7 @@ import {
 import Image from 'next/image'
 import Skill from './skill'
 import { Metadata } from 'next'
-import DecryptedTextEffect from './DecryptedTextEffect'
+import DecryptedTextEffect from '../../components/DecryptedTextEffect'
 import AboutButton from './AboutButton'
 
 export const metadata: Metadata = {
