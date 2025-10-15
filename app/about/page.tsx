@@ -10,10 +10,9 @@ import {
 } from "@/components/ui/breadcrumb"
 import Image from 'next/image'
 import Skill from './skill'
-import { Button } from '@/components/ui/button'
-import Link from 'next/link'
 import { Metadata } from 'next'
 import DecryptedTextEffect from './DecryptedTextEffect'
+import AboutButton from './AboutButton'
 
 export const metadata: Metadata = {
   title: "About",
@@ -185,16 +184,7 @@ const About = () => {
           </div>
         </div>
         <div className='flex justify-center items-center pb-8'>
-          <Button size={'lg'} className='hidden lg:flex rounded-none cursor-pointer uppercase animate-pulse hover:-translate-y-0.5 transform transition' asChild>
-            <Link href="/resume">
-                Click to check my resume
-            </Link>
-          </Button>
-          <Button className='flex lg:hidden mt-8 rounded-none cursor-pointer uppercase animate-pulse hover:-translate-y-0.5 transform transition' asChild>
-            <Link href="/resume" className='text-xs'>
-                Tap to check my resume
-            </Link>
-          </Button>
+          <AboutButton />
         </div>
       </div>
     </>
