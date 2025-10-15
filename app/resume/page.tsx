@@ -128,6 +128,14 @@ const page = () => {
                 <span className='text-sm lg:text-md text-primary underline underline-offset-4 italic hover:text-primary/90 hover:font-bold'>Unfortunately, I do not have the source code since the company claims full ownership and hasn&apos;t provided me any rights to it.</span>
               </div>
               <div>
+                <h2 className='font-bold uppercase text-lg lg:text-xl'>Spider Function</h2>
+                <p className='italic'>Next.js, Tailwind CSS and TypeScript</p>
+                <span className='text-sm lg:text-md text-primary underline underline-offset-4 italic hover:text-primary/90 hover:font-bold'>This is my business website. The code is not publicly available to maintain integrity.</span>
+                <Link href={'https://spiderfunction.com/'} target="_blank" rel="noopener noreferrer">
+                  <span className='block font-semibold text-sm lg:text-md text-primary underline underline-offset-4 italic hover:text-primary/90 hover:font-bold'>Click here to visit the website</span>
+                </Link>
+              </div>
+              <div>
                 <h2 className='font-bold uppercase text-lg lg:text-xl'>Barangay in Cavite, Official Website</h2>
                 <p className='italic'>PHP, Laravel, HTML5, CSS, JavaScript, and MySQL</p>
                 <Link className='text-sm lg:text-md text-primary underline underline-offset-4 italic hover:text-primary/90 hover:animate-pulse hover:font-bold' href={'https://github.com/AnthonyPhilipDP/barangay-website-capstone'} target="_blank" rel="noopener noreferrer">Check Code</Link>
