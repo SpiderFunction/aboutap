@@ -13,6 +13,7 @@ import Skill from './skill'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { Metadata } from 'next'
+import DecryptedTextEffect from './DecryptedTextEffect'
 
 export const metadata: Metadata = {
   title: "About",
@@ -46,10 +47,10 @@ const About = () => {
       </nav>
       <div className='min-h-screen'>
         <div className='space-y-8 p-8'>
-          <h1 className='text-center font-bold text-primary text-4xl lg:text-5xl uppercase'>IT Professional & Web Development Specialist</h1>
-          <p className='text-center text-lg md:px-8 lg:px-10 xl:px-12'>Welcome! I'm Anthony Philip, an IT specialist who combines academic excellence with practical innovation. Here you'll discover my story as a technology enthusiast, leader, and problem-solver who transforms ideas into meaningful digital solutions through cutting-edge web development.</p>
+          <DecryptedTextEffect text='IT Professional & Web Development Specialist' addedClass='text-center font-bold text-primary text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase' />
+          <p className='text-center text-md lg:text-lg md:px-8 lg:px-10 xl:px-12'>Welcome! I'm Anthony Philip, an IT specialist who combines academic excellence with practical innovation. Here you'll discover my story as a technology enthusiast, leader, and problem-solver who transforms ideas into meaningful digital solutions through cutting-edge web development.</p>
         </div>
-        <div className='p-8 bg-secondary'>
+        <div className='px-8 py-4 lg:py-6 bg-secondary'>
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
@@ -74,8 +75,8 @@ const About = () => {
           </div>
           <div className='flex flex-col md:w-[60%]'>
             <div className='p-8 space-y-4'>
-              <h2 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-primary'>Website Developer / IT Specialist</h2>
-              <p className='md:text-md lg:text-lg xl:text-xl'>I'm a programmer with a passion for innovating systems and solving complex problems. I enjoy designing efficient solutions, and constantly exploring new technologies. My goal is to build systems that are not only functional but transformative.</p>
+              <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-primary text-center lg:text-start'>Website Developer / IT Specialist</h2>
+              <p className='md:text-md lg:text-lg xl:text-xl text-center lg:text-start'>I'm a programmer with a passion for innovating systems and solving complex problems. I enjoy designing efficient solutions, and constantly exploring new technologies. My goal is to build systems that are not only functional but transformative.</p>
             </div>
             <div className='p-8 space-y-4'>
               <ul>
