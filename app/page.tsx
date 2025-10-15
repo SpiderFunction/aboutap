@@ -18,7 +18,7 @@ const Home = () => {
             </Link>
             <span></span>
           </div>
-          <div className='lg:hidden text-xs uppercase tracking-wider text-center py-2 text-white'>Made with love by <Link href={'https://spiderfunction.com'} className='text-primary'>Spider Function</Link></div>
+          <div className='lg:hidden text-xs uppercase tracking-wider text-center py-2 text-white'>Made with love by <Link href={'https://spiderfunction.com'} target='_blank' rel='noopener noreferrer' className='text-primary'>Spider Function</Link></div>
           <div className='flex flex-row justify-between items-center w-full px-8'>
             <div className='hidden lg:block w-[33%]'></div>
             <ul className="w-full lg:w-[33%] flex flex-row space-x-8 justify-center items-center px-4 py-2 md:text-lg text-white">
@@ -32,7 +32,7 @@ const Home = () => {
                 <NavLink href="/resume">Resume</NavLink>
               </li>
             </ul>
-            <div className='hidden lg:block w-[33%] text-sm uppercase tracking-wider text-right text-white'>Made with love by <Link href={'https://spiderfunction.com'} className='text-primary'>Spider Function</Link></div>
+            <div className='hidden lg:block w-[33%] text-sm uppercase tracking-wider text-right text-white'>Made with love by <Link href={'https://spiderfunction.com'} target='_blank' rel='noopener noreferrer' className='text-primary'>Spider Function</Link></div>
           </div>
         </nav>
         <ThunderEffect />
