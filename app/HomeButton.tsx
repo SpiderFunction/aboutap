@@ -15,7 +15,7 @@ const HomeButton = () => {
               chaos={0.5}
               thickness={2}
               style={{ borderRadius: 16 }}
-              className='px-8 py-3 text-center mt-8'
+              className='px-8 py-3 text-center mt-8 text-white'
             >
               <div>
                   Click to know more about me
@@ -31,7 +31,7 @@ const HomeButton = () => {
               chaos={0.5}
               thickness={2}
               style={{ borderRadius: 16 }}
-              className='px-4 py-3 text-center mt-8'
+              className='px-4 py-3 text-center mt-8 text-white'
             >
               <div>
                   Tap to know more about me
